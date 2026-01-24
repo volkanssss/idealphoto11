@@ -25,8 +25,8 @@ interface KpopWebcamSectionProps {
   onFilterChange: (filter: DigiboothFilterType) => void;
   onAdjustmentChange: (adjustments: FilterAdjustmentValues) => void;
   onCountdownChange: (time: number) => void;
-  selectedIdols?: Array<{id: string, name: string, src: string}>;
-  onSelectIdols?: (idols: Array<{id: string, name: string, src: string}>) => void;
+  selectedIdols?: Array<{ id: string, name: string, src: string }>;
+  onSelectIdols?: (idols: Array<{ id: string, name: string, src: string }>) => void;
 }
 
 const KpopWebcamSection: React.FC<KpopWebcamSectionProps> = ({
@@ -43,7 +43,7 @@ const KpopWebcamSection: React.FC<KpopWebcamSectionProps> = ({
   onAdjustmentChange,
   onCountdownChange,
   selectedIdols = [],
-  onSelectIdols = () => {}
+  onSelectIdols = () => { }
 }) => {
   const overlayImageRef = useRef<HTMLImageElement | null>(null);
   const [continuousCapture, setContinuousCapture] = useState(false);
@@ -59,10 +59,10 @@ const KpopWebcamSection: React.FC<KpopWebcamSectionProps> = ({
     const totalPhotos = 4;
     setContinuousCapture(true);
     setPhotosRemaining(totalPhotos);
-    
+
     // Trigger the first photo
     onTakePhoto();
-    
+
     toast.success(`Starting photo session: ${totalPhotos} photos at ${countdownTime}-second intervals`);
   };
 
@@ -70,7 +70,7 @@ const KpopWebcamSection: React.FC<KpopWebcamSectionProps> = ({
   React.useEffect(() => {
     // If we're not in continuous mode or no more photos remaining, do nothing
     if (!continuousCapture || photosRemaining <= 0) return;
-    
+
     // When a photo is captured and we still have photos remaining
     if (!isCapturing && photosRemaining > 0) {
       // Schedule the next photo to be taken after countdownTime
@@ -85,10 +85,10 @@ const KpopWebcamSection: React.FC<KpopWebcamSectionProps> = ({
           toast.success("Photo session complete!");
         }
       }, countdownTime * 1000);
-      
+
       captureIntervalRef.current = nextPhotoTimeout;
     }
-    
+
     // Cleanup on unmount
     return () => {
       if (captureIntervalRef.current) {
@@ -101,9 +101,9 @@ const KpopWebcamSection: React.FC<KpopWebcamSectionProps> = ({
     <div className="flex-grow lg:w-[65%] bg-white rounded-xl shadow-lg p-6 overflow-hidden">
       <div className="relative w-full bg-gray-100 rounded-lg overflow-hidden shadow-inner" style={{ height: "70vh" }}>
         <div className="w-full h-full">
-          <KpopWebcamCapture 
-            onCapture={onCapture} 
-            isCapturing={isCapturing} 
+          <KpopWebcamCapture
+            onCapture={onCapture}
+            isCapturing={isCapturing}
             overlayImage={overlayImageRef.current}
             selectedFilter={selectedFilter}
             filterAdjustments={filterAdjustments}
@@ -113,34 +113,35 @@ const KpopWebcamSection: React.FC<KpopWebcamSectionProps> = ({
           />
         </div>
       </div>
-      
+
       {showControls && (
         <>
           <div className="my-4">
-            <IdolSelector 
+            <IdolSelector
               onSelectIdols={onSelectIdols}
               selectedIdols={selectedIdols}
               maxSelections={4}
             />
           </div>
-        
-          <CountdownSelector 
+
+          <CountdownSelector
             value={countdownTime}
             onChange={onCountdownChange}
           />
-          
+
           <div className="flex justify-center">
-            <Button 
-              onClick={startContinuousCapture} 
+            <Button
+              asChild
               className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all my-4 text-lg font-medium"
               size="lg"
-              disabled={isCapturing || continuousCapture}
             >
-              <Camera className="mr-2 h-5 w-5" />
-              Start Capture
+              <a href="https://idealphoto.net/">
+                <Camera className="mr-2 h-5 w-5" />
+                Start Capture
+              </a>
             </Button>
           </div>
-          
+
           <KpopFilterDisplay
             selectedFilter={selectedFilter}
             onFilterChange={onFilterChange}
@@ -149,13 +150,13 @@ const KpopWebcamSection: React.FC<KpopWebcamSectionProps> = ({
           />
         </>
       )}
-      
+
       {!showControls && (
-        <KpopControls 
-          onTakePhoto={onTakePhoto} 
-          onRetakePhoto={onRetakePhoto} 
-          isCapturing={isCapturing} 
-          hasPhotos={capturedPhotos.length > 0} 
+        <KpopControls
+          onTakePhoto={onTakePhoto}
+          onRetakePhoto={onRetakePhoto}
+          isCapturing={isCapturing}
+          hasPhotos={capturedPhotos.length > 0}
         />
       )}
     </div>

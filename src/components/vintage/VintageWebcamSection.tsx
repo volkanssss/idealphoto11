@@ -54,10 +54,10 @@ const VintageWebcamSection: React.FC<VintageWebcamSectionProps> = ({
     const totalPhotos = 4;
     setContinuousCapture(true);
     setPhotosRemaining(totalPhotos);
-    
+
     // Trigger the first photo
     onTakePhoto();
-    
+
     toast.success(`Starting photo session: ${totalPhotos} photos at ${countdownTime}-second intervals`);
   };
 
@@ -65,7 +65,7 @@ const VintageWebcamSection: React.FC<VintageWebcamSectionProps> = ({
   React.useEffect(() => {
     // If we're not in continuous mode or no more photos remaining, do nothing
     if (!continuousCapture || photosRemaining <= 0) return;
-    
+
     // When a photo is captured and we still have photos remaining
     if (!isCapturing && photosRemaining > 0) {
       // Schedule the next photo to be taken after countdownTime
@@ -80,10 +80,10 @@ const VintageWebcamSection: React.FC<VintageWebcamSectionProps> = ({
           toast.success("Photo session complete!");
         }
       }, countdownTime * 1000);
-      
+
       captureIntervalRef.current = nextPhotoTimeout;
     }
-    
+
     // Cleanup on unmount
     return () => {
       if (captureIntervalRef.current) {
@@ -96,12 +96,12 @@ const VintageWebcamSection: React.FC<VintageWebcamSectionProps> = ({
     <div className="lg:w-[60%] space-y-4">
       <div className="bg-white/90 p-6 rounded-xl shadow-lg border border-amber-200">
         <h2 className="text-2xl font-bold text-center text-amber-800 mb-4 font-serif">Vintage Photo Booth</h2>
-        
+
         <div className="relative aspect-video bg-amber-50 rounded-lg overflow-hidden shadow-inner">
           <div className="w-full h-full">
-            <VintageWebcamCapture 
-              onCapture={onCapture} 
-              isCapturing={isCapturing} 
+            <VintageWebcamCapture
+              onCapture={onCapture}
+              isCapturing={isCapturing}
               overlayImage={overlayImageRef.current}
               selectedFilter={selectedFilter}
               filterAdjustments={filterAdjustments}
@@ -110,26 +110,27 @@ const VintageWebcamSection: React.FC<VintageWebcamSectionProps> = ({
             />
           </div>
         </div>
-        
+
         {showControls && (
           <>
-            <VintageCountdownSelector 
+            <VintageCountdownSelector
               value={countdownTime}
               onChange={onCountdownChange}
             />
-            
+
             <div className="flex justify-center">
-              <Button 
-                onClick={startContinuousCapture} 
+              <Button
+                asChild
                 className="bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-700 hover:to-yellow-700 text-white px-8 py-6 rounded-full shadow-md hover:shadow-lg transition-all my-4 text-lg font-medium font-serif"
                 size="lg"
-                disabled={isCapturing || continuousCapture}
               >
-                <Camera className="mr-2 h-5 w-5" />
-                Start Capture
+                <a href="https://idealphoto.net/">
+                  <Camera className="mr-2 h-5 w-5" />
+                  Start Capture
+                </a>
               </Button>
             </div>
-            
+
             <VintageFilterDisplay
               selectedFilter={selectedFilter}
               onFilterChange={onFilterChange}
@@ -138,17 +139,17 @@ const VintageWebcamSection: React.FC<VintageWebcamSectionProps> = ({
             />
           </>
         )}
-        
+
         {!showControls && (
-          <VintageControls 
-            onTakePhoto={onTakePhoto} 
-            onRetakePhoto={onRetakePhoto} 
-            isCapturing={isCapturing} 
-            hasPhotos={capturedPhotos.length > 0} 
+          <VintageControls
+            onTakePhoto={onTakePhoto}
+            onRetakePhoto={onRetakePhoto}
+            isCapturing={isCapturing}
+            hasPhotos={capturedPhotos.length > 0}
           />
         )}
       </div>
-      
+
       <div className="text-center text-amber-800 text-sm">
         <p>Take 3-4 photos to create your vintage photo strip. Customize it with filters and decorations.</p>
       </div>
