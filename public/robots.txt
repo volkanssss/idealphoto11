@@ -1,0 +1,74 @@
+# İdeal Photo - Free K-pop Photo Booth Online
+# Kpop Photobooth - Virtual Photobooth with Idols
+User-agent: *
+Allow: /
+Allow: /kpop-photobooth
+Allow: /vintage-photobooth
+Allow: /wedding-photobooth
+Allow: /digibooth
+Allow: /pica-pica-photobooth
+Allow: /blog
+Allow: /tutorials
+Allow: /gallery
+Allow: /about
+Allow: /faq
+Allow: /contact
+Allow: /help-center
+Allow: /pricing
+Allow: /sitemap
+Disallow: /admin
+Disallow: /api
+
+# Sitemap location
+Sitemap: https://idealphotovercel.com/sitemap.xml
+
+# Major Search Engines - K-pop Photo Booth Optimized
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.webp
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# SEO and AdSense crawling directives
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+Allow: *.js
+Allow: *.css
+
+# Allow all static assets for K-pop photobooth
+Allow: /static/
+Allow: /lovable-uploads/
+Allow: *.js
+Allow: *.css
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
+Allow: *.ico

@@ -1,0 +1,121 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slide-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .animate-slide-up {
+    animation: slide-up 0.5s ease-out forwards;
+  }
+  
+  .animate-spin-slow {
+    animation: spin-slow 10s linear infinite;
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out forwards;
+  }
+  
+  /* Theme-specific glass card styles */
+  .glass-card-vintage {
+    @apply bg-amber-50/80 backdrop-blur-lg border border-amber-200/50 rounded-xl shadow-lg;
+  }
+  
+  .glass-card-digibooth {
+    @apply bg-blue-50/80 backdrop-blur-lg border border-blue-200/50 rounded-xl shadow-lg;
+  }
+  
+  .glass-card-wedding {
+    @apply bg-rose-50/80 backdrop-blur-lg border border-rose-200/50 rounded-xl shadow-lg;
+  }
+  
+  .glass-card-kpop {
+    @apply bg-purple-50/80 backdrop-blur-lg border border-purple-200/50 rounded-xl shadow-lg;
+  }
+  
+  /* Background patterns */
+  .pattern-grid-lg {
+    background-image: linear-gradient(currentColor 1px, transparent 1px),
+      linear-gradient(to right, currentColor 1px, transparent 1px);
+  }
+  
+  .pattern-dots {
+    background-image: radial-gradient(currentColor 1px, transparent 1px);
+  }
+  
+  .pattern-waves {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      currentColor 10px,
+      currentColor 20px
+    );
+  }
+  
+  /* Photo filters */
+  .vintage-filter {
+    @apply sepia brightness-[.95] contrast-[.95];
+  }
+  
+  .wedding-filter {
+    @apply brightness-[1.05] contrast-[.95] saturate-[.95];
+  }
+  
+  .digibooth-filter {
+    @apply brightness-[1.05] contrast-[1.05] saturate-[1.05];
+  }
+  
+  .kpop-filter {
+    @apply brightness-[1.10] contrast-[1.10] saturate-[1.10];
+  }
+}
+
+/* Common UI components */
+.glass-card {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl shadow-lg 
+         hover:shadow-xl transition-all duration-300;
+}
+
+.gradient-button {
+  @apply bg-gradient-to-r from-violet-600 to-fuchsia-600 
+         hover:from-violet-700 hover:to-fuchsia-700 text-white 
+         font-medium rounded-lg transition-all duration-200 
+         transform hover:scale-105 hover:shadow-lg;
+}
+
+.modern-card {
+  @apply bg-white rounded-xl shadow-md hover:shadow-lg 
+         transition-all duration-300 overflow-hidden 
+         border border-gray-100 hover:border-violet-200;
+}
+
+.heading-gradient {
+  @apply bg-gradient-to-r from-violet-600 to-fuchsia-600 
+         bg-clip-text text-transparent font-bold;
+}
+
+.seo-section {
+  @apply py-16 bg-gradient-to-b from-gray-50 to-white;
+}

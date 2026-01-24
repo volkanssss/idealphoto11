@@ -1,0 +1,29 @@
+
+# Redirect old URLs to correct ones
+/digital-photo-booth /digibooth 301
+/polaroid-photo-booth /vintage-photobooth 301
+/smile-photo-booth /pica-pica-booth 301
+/photobooth-perpisahan /wedding-photobooth 301
+/web-kpop-photobooth /kpop-photobooth 301
+/blackpink-photo-booth /kpop-photobooth 301
+/twice-photo-booth /kpop-photobooth 301
+/enhypen-photo-booth /kpop-photobooth 301
+/bts-photo-booth /kpop-photobooth 301
+/newjeans-photo-booth /kpop-photobooth 301
+/kawai-photo-booth /pica-pica-booth 301
+/beauty-plus-photo-booth /pica-pica-booth 301
+/chinchinbooth /pica-pica-booth 301
+/online-kpop-photobooth /kpop-photobooth 301
+/dashboard / 301
+/edit / 301
+/blog/top-kpop-photo-ideas /blog 301
+/blog/perfect-fan-photo-guide /blog 301
+/blog/behind-the-scenes-idol-assets /blog 301
+/blog/new-features-backgrounds-stickers /blog 301
+/kpop-photo-booth /kpop-photobooth 301
+/pica-pica-photobooth /pica-pica-booth 301
+/kpop-photostrips /kpop-photobooth 301
+/compare-photo-booth-apps / 301
+/kpop-photo-booth* /kpop-photobooth 301
+
+/* /index.html 200
