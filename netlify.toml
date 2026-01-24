@@ -24,19 +24,19 @@
 [[headers]]
   for = "/digibooth"
   [headers.values]
-    Link = "<https://idealphotovercel.com/digibooth>; rel=\"canonical\""
+    Link = "<https://idealphotovercel.com/digibooth/>; rel=\"canonical\""
 
 [[headers]]
   for = "/pica-pica-booth"
   [headers.values]
-    Link = "<https://idealphotovercel.com/pica-pica-booth>; rel=\"canonical\""
+    Link = "<https://idealphotovercel.com/pica-pica-booth/>; rel=\"canonical\""
 
 [[headers]]
   for = "/kpop-photo-booth"
   [headers.values]
-    Link = "<https://idealphotovercel.com/kpop-photo-booth>; rel=\"canonical\""
+    Link = "<https://idealphotovercel.com/kpop-photo-booth/>; rel=\"canonical\""
 
 [[headers]]
   for = "/vintage-photobooth"
   [headers.values]
-    Link = "<https://idealphotovercel.com/vintage-photobooth>; rel=\"canonical\""
+    Link = "<https://idealphotovercel.com/vintage-photobooth/>; rel=\"canonical\""

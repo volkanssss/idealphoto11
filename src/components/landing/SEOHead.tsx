@@ -24,7 +24,10 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   altLangs = []
 }) => {
   const baseUrl = "https://idealphotovercel.com";
-  const canonicalUrl = `${baseUrl}${canonicalPath}`;
+  let canonicalUrl = `${baseUrl}${canonicalPath}`;
+  if (!canonicalUrl.endsWith('/')) {
+    canonicalUrl += '/';
+  }
   const fullOgImageUrl = ogImage.startsWith('http') ? ogImage : `${baseUrl}${ogImage}`;
   
   return (

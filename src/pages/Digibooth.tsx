@@ -45,9 +45,9 @@ const Digibooth = () => {
     setFrameColor,
     setSelectedSticker
   } = useDigiboothState();
-  
+
   const [activeTab, setActiveTab] = useState('camera');
-  
+
   const handleDownloadStrip = async () => {
     if (capturedPhotos.length < 3) {
       toast.error('Please take at least 3 photos first');
@@ -55,13 +55,13 @@ const Digibooth = () => {
     }
     downloadPhotoStrip(setIsDownloading);
   };
-  
+
   const handleSharePhotos = () => {
     if (capturedPhotos.length === 0) {
       toast.error('Please take some photos first');
       return;
     }
-    
+
     if (navigator.share) {
       navigator.share({
         title: 'My Digibooth Photos',
@@ -79,15 +79,15 @@ const Digibooth = () => {
         <title>Digital Photo Booth | Professional Event Photo Booth Software | Ideal Photo</title>
         <meta name="description" content="Professional digital photo booth software for events, weddings, and corporate gatherings. Advanced customization with instant sharing capabilities. Try our free online photo booth today!" />
         <meta name="keywords" content="digital photo booth, online photo booth, virtual photo booth software, event photo booth, wedding photo booth, corporate photo booth, ideal photo booth" />
-        <link rel="canonical" href="https://idealphotovercel.com/digibooth" />
+        <link rel="canonical" href="https://idealphotovercel.com/digibooth/" />
         <script type="application/ld+json">
           {JSON.stringify(digiboothStructuredData)}
         </script>
       </Helmet>
-      
+
       <PhotoboothLayout type="digibooth">
         <DigiboothHeroArea />
-        
+
         <main className="container mx-auto px-4 py-8">
           <DigiboothTabbedContent
             activeTab={activeTab}
@@ -114,7 +114,7 @@ const Digibooth = () => {
             setSelectedSticker={setSelectedSticker}
           />
         </main>
-        
+
         <DigiboothSaasFooter />
       </PhotoboothLayout>
     </>

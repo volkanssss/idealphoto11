@@ -78,15 +78,15 @@ const Pricing = () => {
         <title>Pricing Plans - İdeal Photo Virtual Photo Booth | Affordable Photo Booth Services</title>
         <meta name="description" content="Affordable pricing for İdeal Photo virtual photo booth services. Free plan available. Pro plans starting at $19/month. Perfect for events, businesses, and personal use." />
         <meta name="keywords" content="photo booth pricing, virtual photo booth cost, photo booth plans, affordable photo booth, photo booth subscription" />
-        <link rel="canonical" href="https://idealphotovercel.com/pricing" />
+        <link rel="canonical" href="https://idealphotovercel.com/pricing/" />
         <script type="application/ld+json">
           {JSON.stringify(pricingStructuredData)}
         </script>
       </Helmet>
-      
+
       <div className="min-h-screen flex flex-col">
         <Header />
-        
+
         <main className="flex-grow py-16 bg-gradient-to-br from-purple-50 to-pink-50">
           <div className="container mx-auto px-4">
             {/* Header */}
@@ -101,7 +101,7 @@ const Pricing = () => {
                 Pricing plans coming soon for premium features
               </p>
             </div>
-            
+
             {/* Pricing Cards - Temporarily Hidden */}
             <div className="text-center mb-16">
               <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl mx-auto">
@@ -114,13 +114,13 @@ const Pricing = () => {
                 </p>
               </div>
             </div>
-            
+
             {/* FAQ Section */}
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
                 Frequently Asked Questions
               </h2>
-              
+
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
@@ -130,7 +130,7 @@ const Pricing = () => {
                     Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, and we'll prorate the billing.
                   </p>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
                     Is there a free trial?
@@ -139,7 +139,7 @@ const Pricing = () => {
                     Our Basic plan is free forever! You can also try Pro features with a 14-day free trial when you sign up.
                   </p>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
                     What payment methods do you accept?
@@ -148,7 +148,7 @@ const Pricing = () => {
                     We accept all major credit cards, PayPal, and bank transfers for Enterprise plans.
                   </p>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
                     Do you offer refunds?
@@ -161,7 +161,7 @@ const Pricing = () => {
             </div>
           </div>
         </main>
-        
+
         <Footer />
       </div>
     </>

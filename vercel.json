@@ -1,79 +1,211 @@
-
 {
   "redirects": [
-    { "source": "/digital-photo-booth", "destination": "/digibooth", "permanent": true },
-    { "source": "/polaroid-photo-booth", "destination": "/vintage-photobooth", "permanent": true },
-    { "source": "/smile-photo-booth", "destination": "/pica-pica-booth", "permanent": true },
-    { "source": "/photobooth-perpisahan", "destination": "/wedding-photobooth", "permanent": true },
-    { "source": "/web-kpop-photobooth", "destination": "/kpop-photobooth", "permanent": true },
-    { "source": "/blackpink-photo-booth", "destination": "/kpop-photobooth", "permanent": true },
-    { "source": "/twice-photo-booth", "destination": "/kpop-photobooth", "permanent": true },
-    { "source": "/enhypen-photo-booth", "destination": "/kpop-photobooth", "permanent": true },
-    { "source": "/bts-photo-booth", "destination": "/kpop-photobooth", "permanent": true },
-    { "source": "/newjeans-photo-booth", "destination": "/kpop-photobooth", "permanent": true },
-    { "source": "/kawai-photo-booth", "destination": "/pica-pica-booth", "permanent": true },
-    { "source": "/beauty-plus-photo-booth", "destination": "/pica-pica-booth", "permanent": true },
-    { "source": "/chinchinbooth", "destination": "/pica-pica-booth", "permanent": true },
-    { "source": "/online-kpop-photobooth", "destination": "/kpop-photobooth", "permanent": true },
-    { "source": "/dashboard", "destination": "/", "permanent": true },
-    { "source": "/edit", "destination": "/", "permanent": true },
-    { "source": "/blog/top-kpop-photo-ideas", "destination": "/blog", "permanent": true },
-    { "source": "/blog/perfect-fan-photo-guide", "destination": "/blog", "permanent": true },
-    { "source": "/blog/behind-the-scenes-idol-assets", "destination": "/blog", "permanent": true },
-    { "source": "/blog/new-features-backgrounds-stickers", "destination": "/blog", "permanent": true },
-    { "source": "/kpop-photo-booth", "destination": "/kpop-photobooth", "permanent": true },
-    { "source": "/pica-pica-photobooth", "destination": "/pica-pica-booth", "permanent": true },
-    { "source": "/kpop-photostrips", "destination": "/kpop-photobooth", "permanent": true },
-    { "source": "/compare-photo-booth-apps", "destination": "/", "permanent": true },
-    { "source": "/kpop-photo-booth(.*)", "destination": "/kpop-photobooth", "permanent": true }
+    {
+      "source": "/digital-photo-booth",
+      "destination": "/digibooth",
+      "permanent": true
+    },
+    {
+      "source": "/polaroid-photo-booth",
+      "destination": "/vintage-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/smile-photo-booth",
+      "destination": "/pica-pica-booth",
+      "permanent": true
+    },
+    {
+      "source": "/photobooth-perpisahan",
+      "destination": "/wedding-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/web-kpop-photobooth",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/blackpink-photo-booth",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/twice-photo-booth",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/enhypen-photo-booth",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/bts-photo-booth",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/newjeans-photo-booth",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/kawai-photo-booth",
+      "destination": "/pica-pica-booth",
+      "permanent": true
+    },
+    {
+      "source": "/beauty-plus-photo-booth",
+      "destination": "/pica-pica-booth",
+      "permanent": true
+    },
+    {
+      "source": "/chinchinbooth",
+      "destination": "/pica-pica-booth",
+      "permanent": true
+    },
+    {
+      "source": "/online-kpop-photobooth",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/dashboard",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/edit",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/top-kpop-photo-ideas",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/perfect-fan-photo-guide",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/behind-the-scenes-idol-assets",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/new-features-backgrounds-stickers",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/kpop-photo-booth",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/pica-pica-photobooth",
+      "destination": "/pica-pica-booth",
+      "permanent": true
+    },
+    {
+      "source": "/kpop-photostrips",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    },
+    {
+      "source": "/compare-photo-booth-apps",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/kpop-photo-booth(.*)",
+      "destination": "/kpop-photobooth",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/ads.txt", "destination": "/ads.txt" },
-    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/ads.txt",
+      "destination": "/ads.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap.xml"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "index, follow" },
-        { "key": "Link", "value": "<https://idealphotovercel.com>; rel=\"canonical\"" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Link",
+          "value": "<https://idealphotovercel.com/>; rel=\"canonical\""
+        }
       ]
     },
     {
       "source": "/sitemap.xml",
       "headers": [
-        { "key": "Content-Type", "value": "application/xml" }
+        {
+          "key": "Content-Type",
+          "value": "application/xml"
+        }
       ]
     },
     {
       "source": "/digibooth",
       "headers": [
-        { "key": "Link", "value": "<https://idealphotovercel.com/digibooth>; rel=\"canonical\"" }
+        {
+          "key": "Link",
+          "value": "<https://idealphotovercel.com/digibooth/>; rel=\"canonical\""
+        }
       ]
     },
     {
       "source": "/pica-pica-booth",
       "headers": [
-        { "key": "Link", "value": "<https://idealphotovercel.com/pica-pica-booth>; rel=\"canonical\"" }
+        {
+          "key": "Link",
+          "value": "<https://idealphotovercel.com/pica-pica-booth/>; rel=\"canonical\""
+        }
       ]
     },
     {
       "source": "/wedding-photobooth",
       "headers": [
-        { "key": "Link", "value": "<https://idealphotovercel.com/wedding-photobooth>; rel=\"canonical\"" }
+        {
+          "key": "Link",
+          "value": "<https://idealphotovercel.com/wedding-photobooth/>; rel=\"canonical\""
+        }
       ]
     },
     {
       "source": "/kpop-photobooth",
       "headers": [
-        { "key": "Link", "value": "<https://idealphotovercel.com/kpop-photobooth>; rel=\"canonical\"" }
+        {
+          "key": "Link",
+          "value": "<https://idealphotovercel.com/kpop-photobooth/>; rel=\"canonical\""
+        }
       ]
     },
     {
       "source": "/vintage-photobooth",
       "headers": [
-        { "key": "Link", "value": "<https://idealphotovercel.com/vintage-photobooth>; rel=\"canonical\"" }
+        {
+          "key": "Link",
+          "value": "<https://idealphotovercel.com/vintage-photobooth/>; rel=\"canonical\""
+        }
       ]
     }
   ]

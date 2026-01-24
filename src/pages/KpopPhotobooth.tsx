@@ -50,11 +50,11 @@ const KpopPhotobooth = () => {
     setSelectedSticker,
     handleSelectIdols
   } = useKpopState();
-  
+
   const [activeTab, setActiveTab] = useState('camera');
   const [currentTemplate, setCurrentTemplate] = useState('classic');
   const [frameTheme, setFrameTheme] = useState<FrameTheme>('default');
-  
+
   const changeTemplate = (template: string) => {
     setCurrentTemplate(template);
     toast.success(`Template changed to ${template}`);
@@ -66,15 +66,15 @@ const KpopPhotobooth = () => {
         <title>K-pop Photo Booth | Create Idol-Inspired Photos | İdeal Photo</title>
         <meta name="description" content="Create stunning K-pop photo booth pictures with idol themes, stickers, and backgrounds. Perfect for ARMY, ONCE, BLINK, and all K-pop fans. Start creating now!" />
         <meta name="keywords" content="kpop photo booth, idol photo booth, bts photo booth, blackpink photo booth, twice photo booth, stray kids photo booth, kpop stickers, idol backgrounds" />
-        <link rel="canonical" href="https://idealphotovercel.com/kpop-photobooth" />
+        <link rel="canonical" href="https://idealphotovercel.com/kpop-photobooth/" />
         <script type="application/ld+json">
           {JSON.stringify(kpopStructuredData)}
         </script>
       </Helmet>
-      
+
       <PhotoboothLayout type="kpop">
         <KpopHeroArea />
-        
+
         <main className="container mx-auto px-4 py-8">
           <KpopPhotoBoothTabs
             activeTab={activeTab}
@@ -103,7 +103,7 @@ const KpopPhotobooth = () => {
             setFrameTheme={setFrameTheme}
           />
         </main>
-        
+
         <KpopFeatures />
         <KpopTestimonials />
         <KpopPricing />
