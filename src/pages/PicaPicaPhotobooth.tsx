@@ -54,43 +54,43 @@ const PicaPicaPhotobooth = () => {
     setFrameColor,
     setSelectedSticker
   } = usePhotoboothState();
-  
+
   const [activeTab, setActiveTab] = useState('capture');
   const [showTips, setShowTips] = useState(true);
   const [layoutMode, setLayoutMode] = useState('classic');
-  
+
   const handleDownloadStrip = async () => {
     if (capturedPhotos.length < 3) {
       toast.error('Please take at least 3 photos first');
       return;
     }
-    
+
     downloadPhotoStrip(setIsDownloading);
     console.log('Download completed:', new Date().toISOString());
   };
-  
+
   const handleSharePhotos = () => {
     if (capturedPhotos.length === 0) {
       toast.error('Please take some photos first');
       return;
     }
-    
+
     if (navigator.share) {
       navigator.share({
         title: 'My Pica-Pica Photos',
         text: 'Check out these awesome photos I took with the Pica-Pica Photo Booth!',
         url: 'https://idealphotovercel.com/pica-pica-booth'
       })
-      .then(() => toast.success('Photos shared successfully!'))
-      .catch((error) => {
-        console.error('Error sharing:', error);
-        toast.error('Failed to share photos');
-      });
+        .then(() => toast.success('Photos shared successfully!'))
+        .catch((error) => {
+          console.error('Error sharing:', error);
+          toast.error('Failed to share photos');
+        });
     } else {
       toast.info('Copy this link to share with friends: https://idealphotovercel.com/pica-pica-booth');
     }
   };
-  
+
   const toggleLayoutMode = () => {
     const modes = ['classic', 'modern', 'fun'];
     const currentIndex = modes.indexOf(layoutMode);
@@ -98,14 +98,14 @@ const PicaPicaPhotobooth = () => {
     setLayoutMode(modes[nextIndex]);
     toast.success(`Layout changed to ${modes[nextIndex]} mode`);
   };
-  
+
   useEffect(() => {
     if (capturedPhotos.length >= 4 && activeTab === 'capture') {
       setActiveTab('preview');
       toast.success('Photo session complete! Now customize your photos');
     }
   }, [capturedPhotos.length, activeTab]);
-  
+
   useEffect(() => {
     if (showTips) {
       const timer = setTimeout(() => {
@@ -119,26 +119,26 @@ const PicaPicaPhotobooth = () => {
     <>
       <SEOHead
         title="PicaPica Photobooth | Beauty Plus Photobooth Experience - Free Online Photo Booth"
-        description="PicaPica booth ile eğlenceli fotoğraflar çekin! Photobooth picapica ve beauty plus photobooth özelliklerini keşfedin. Create amazing photo booth memories instantly - Start free today!"
-        canonicalPath="/pica-pica-photobooth"
+        description="Take fun photos with PicaPica booth! Discover photobooth picapica and beauty plus photobooth features. Create amazing photo booth memories instantly - Start free today!"
+        canonicalPath="/pica-pica-booth/"
         keywords="picapica photobooth, photobooth picapica, beauty plus photobooth, picapica booth, pica pica photo booth, ideal photo booth"
         ogType="website"
         structuredData={picaPicaStructuredData}
       />
-      
+
       <PhotoboothLayout bgColor={bgColor}>
         <HeroArea />
-        
+
         {showTips && <TipsBanner onDismiss={() => setShowTips(false)} />}
-        
-        <motion.main 
-          id="photobooth-area" 
+
+        <motion.main
+          id="photobooth-area"
           className="flex-grow container mx-auto px-4 py-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          <PhotoboothTabs 
+          <PhotoboothTabs
             activeTab={activeTab}
             setActiveTab={setActiveTab}
             layoutMode={layoutMode}
@@ -163,7 +163,7 @@ const PicaPicaPhotobooth = () => {
             isDownloading={isDownloading}
           />
         </motion.main>
-        
+
         <PhotoboothFeatures />
         <PhotoboothTestimonials type="pica-pica" />
         <PhotoboothFAQ />

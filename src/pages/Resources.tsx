@@ -73,7 +73,7 @@ const Resources = () => {
 
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Free Resources & Templates | İdeal Photo - Photo Booth Guides"
         description="Access free photo booth templates, video tutorials, design assets, and comprehensive guides. Everything you need to create stunning virtual photo booth experiences."
         canonicalPath="/resources"

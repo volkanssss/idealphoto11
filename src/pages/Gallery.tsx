@@ -58,7 +58,7 @@ const Gallery = () => {
 
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Photo Gallery | İdeal Photo - User Creations & Inspiration"
         description="Browse our gallery of stunning virtual photo booth creations. Get inspired by K-pop fan photos, wedding memories, vintage aesthetics, and creative photo strips from users worldwide."
         canonicalPath="/gallery"
@@ -111,7 +111,7 @@ const Gallery = () => {
                     <h2 className="text-3xl font-bold text-gray-900 mb-4">{category.name}</h2>
                     <p className="text-xl text-gray-600">{category.description}</p>
                   </div>
-                  
+
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {category.images.map((image, imageIndex) => (
                       <div key={imageIndex} className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer bg-gradient-to-br from-purple-100 to-pink-100 aspect-square">
@@ -122,7 +122,7 @@ const Gallery = () => {
                             <p className="text-sm text-gray-600 mt-2">{category.name}</p>
                           </div>
                         </div>
-                        
+
                         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity">
                           <div className="flex items-center justify-between text-white text-sm">
                             <div className="flex items-center space-x-4">

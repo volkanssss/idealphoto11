@@ -142,7 +142,7 @@ const Tutorials = () => {
 
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Photo Booth Tutorials | İdeal Photo - Step-by-Step Guides"
         description="Learn how to create perfect virtual photo booth images with our comprehensive tutorials. Step-by-step guides for K-pop photos, photo strips, filters, and more."
         canonicalPath="/tutorials"
@@ -180,17 +180,16 @@ const Tutorials = () => {
                         </div>
                         <h2 className="text-3xl font-bold text-gray-900">{category.category}</h2>
                       </div>
-                      
+
                       <div className="grid md:grid-cols-3 gap-6">
                         {category.items.map((tutorial, tutorialIndex) => (
                           <Card key={tutorialIndex} className="hover:shadow-lg transition-shadow cursor-pointer group">
                             <CardHeader>
                               <div className="flex items-center justify-between mb-2">
-                                <span className={`text-xs font-semibold px-3 py-1 rounded-full ${
-                                  tutorial.difficulty === 'Beginner' ? 'bg-green-100 text-green-700' :
+                                <span className={`text-xs font-semibold px-3 py-1 rounded-full ${tutorial.difficulty === 'Beginner' ? 'bg-green-100 text-green-700' :
                                   tutorial.difficulty === 'Intermediate' ? 'bg-yellow-100 text-yellow-700' :
-                                  'bg-red-100 text-red-700'
-                                }`}>
+                                    'bg-red-100 text-red-700'
+                                  }`}>
                                   {tutorial.difficulty}
                                 </span>
                                 <span className="text-xs text-gray-500">{tutorial.duration}</span>
@@ -222,7 +221,7 @@ const Tutorials = () => {
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">Quick Tips & Tricks</h2>
                   <p className="text-xl text-gray-600">Expert advice for better photo booth results</p>
                 </div>
-                
+
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {quickTips.map((item, index) => (
                     <div key={index} className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg border border-purple-100">

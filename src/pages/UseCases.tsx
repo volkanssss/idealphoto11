@@ -162,7 +162,7 @@ const UseCases = () => {
 
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Virtual Photo Booth Use Cases | İdeal Photo - Events & Celebrations"
         description="Discover creative ways to use virtual photo booths for weddings, corporate events, birthday parties, K-pop concerts, graduations, and more. Real examples and benefits."
         canonicalPath="/use-cases"

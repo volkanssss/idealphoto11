@@ -30,27 +30,27 @@ const Index = () => {
 
   return (
     <>
-      <SEOHead 
-        title="İdeal Photo | Free K-pop Photo Booth Online - Virtual Photobooth with Your Favorite Idols"
-        description="Create stunning K-pop photo booth pictures online for free. Virtual photobooth featuring ENHYPEN, NCT, BTS, BLACKPINK and more K-pop idols. Professional photo strips, vintage filters, wedding styles & custom layouts. Download & share instantly - no registration required."
+      <SEOHead
+        title="Easy4cut Photo Booth Online Free- İdeal Photo | Free K-pop Photo Booth Online"
+        description="Experience the best free Photo Booth Online with İdeal Photo and Easy4cut. Create stunning virtual photobooth pictures featuring K-pop idols like ENHYPEN, NCT, BTS, and BLACKPINK."
         canonicalPath="/"
-        keywords="kpop photobooth, kpop photo booth online, ideal photo booth, idealphoto, photobooth kpop, kpop photobooth online free, idol photobooth, photo booth kpop, kpop idol photobooth, online photo booth kpop, virtual photo booth, ideal photo vercel, photobooth with kpop idol, kpop photo booth website, photobooth web kpop, kpop online photo booth, free photo booth online, ideal photobooth, enhypen photo booth, nct photo booth, bts photobooth, blackpink photo booth, photo booth online free, virtual photobooth, ideal photo kpop, photo strip maker"
+        keywords="İdeal Photo, Easy4cut , Photo Booth Online"
         ogType="website"
         structuredData={homepageStructuredData}
       />
       <div className="min-h-screen flex flex-col">
         <Header />
-        
+
         <HeroSection />
-        
+
         <div id="how-it-works">
           <HowItWorksSection />
         </div>
-        
+
         <div className="py-6">
           <FeatureHighlights />
         </div>
-        
+
         {/* How Virtual Photo Booths Work */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4 md:px-6">
@@ -61,7 +61,7 @@ const Index = () => {
               <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
                 Understanding the technology and process behind creating perfect virtual photo booth experiences
               </p>
-              
+
               <div className="grid md:grid-cols-3 gap-8 mb-12">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -72,7 +72,7 @@ const Index = () => {
                     Use your device's camera or upload existing photos. Our advanced browser technology processes everything locally on your device, ensuring complete privacy and lightning-fast performance without requiring any downloads or installations.
                   </p>
                 </div>
-                
+
                 <div className="text-center">
                   <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <span className="text-2xl font-bold text-pink-600">2</span>
@@ -82,7 +82,7 @@ const Index = () => {
                     Apply professional-grade filters, add K-pop themed frames, insert stickers, and customize text overlays. Choose from vintage aesthetics, modern digital art styles, wedding elegance, or authentic K-pop concepts featuring your favorite idols and group themes.
                   </p>
                 </div>
-                
+
                 <div className="text-center">
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <span className="text-2xl font-bold text-blue-600">3</span>
@@ -93,7 +93,7 @@ const Index = () => {
                   </p>
                 </div>
               </div>
-              
+
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
                   Browser-Based Technology: Privacy Meets Performance
@@ -126,7 +126,7 @@ const Index = () => {
               <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
                 Discover the most advanced virtual photo booth platform designed for K-pop fans, event planners, and creative enthusiasts worldwide
               </p>
-              
+
               <div className="grid md:grid-cols-2 gap-8 mb-16">
                 <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-start space-x-4">
@@ -143,7 +143,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0 w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
@@ -159,7 +159,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
@@ -175,7 +175,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
@@ -192,7 +192,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-2xl border border-purple-100">
                 <div className="text-center max-w-3xl mx-auto">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -226,7 +226,7 @@ const Index = () => {
             </div>
           </div>
         </section>
-        
+
         {/* Success Stories Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4 md:px-6">
@@ -237,7 +237,7 @@ const Index = () => {
               <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
                 See how fans around the world create memorable experiences with İdeal Photo
               </p>
-              
+
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg">
                   <div className="text-4xl mb-4">⭐</div>
@@ -246,7 +246,7 @@ const Index = () => {
                   </p>
                   <p className="text-sm font-semibold text-gray-900">- Sarah, K-pop Fan from USA</p>
                 </div>
-                
+
                 <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-6 rounded-lg">
                   <div className="text-4xl mb-4">💝</div>
                   <p className="text-gray-700 mb-4 italic">
@@ -254,7 +254,7 @@ const Index = () => {
                   </p>
                   <p className="text-sm font-semibold text-gray-900">- James & Emily, Wedding Couple</p>
                 </div>
-                
+
                 <div className="bg-gradient-to-br from-pink-50 to-purple-50 p-6 rounded-lg">
                   <div className="text-4xl mb-4">🎉</div>
                   <p className="text-gray-700 mb-4 italic">
@@ -266,9 +266,9 @@ const Index = () => {
             </div>
           </div>
         </section>
-        
+
         <CTASection />
-        
+
         <HomepageSEOSection />
         <Footer />
       </div>

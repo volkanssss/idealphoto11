@@ -117,9 +117,9 @@ const HelpCenter = () => {
 
   return (
     <>
-      <SEOHead 
-        title="Help Center | İdeal Photo - Guides, Tutorials & Support" 
-        description="Find comprehensive help documentation, step-by-step tutorials, and answers to frequently asked questions about İdeal Photo's virtual photo booth platform." 
+      <SEOHead
+        title="Help Center | İdeal Photo - Guides, Tutorials & Support"
+        description="Find comprehensive help documentation, step-by-step tutorials, and answers to frequently asked questions about İdeal Photo's virtual photo booth platform."
         canonicalPath="/help"
         keywords="help center, photo booth help, tutorials, FAQ, user guide, technical support, virtual photo booth documentation"
         structuredData={helpStructuredData}
@@ -137,7 +137,7 @@ const HelpCenter = () => {
                 <p className="text-xl md:text-2xl opacity-90 leading-relaxed mb-8">
                   Find answers, learn new features, and get the most out of İdeal Photo
                 </p>
-                
+
                 {/* Search Bar */}
                 <div className="max-w-2xl mx-auto relative">
                   <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
@@ -161,7 +161,7 @@ const HelpCenter = () => {
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">Browse by Category</h2>
                   <p className="text-xl text-gray-600">Find the help you need organized by topic</p>
                 </div>
-                
+
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {categories.map((category, index) => {
                     const IconComponent = category.icon;
@@ -245,7 +245,7 @@ const HelpCenter = () => {
                       </Button>
                     </CardContent>
                   </Card>
-                  
+
                   <Card className="text-center">
                     <CardContent className="pt-6">
                       <div className="inline-flex p-4 bg-pink-100 rounded-full mb-4">

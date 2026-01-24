@@ -7,9 +7,9 @@ import Footer from '@/components/landing/Footer';
 const TermsOfService = () => {
   return (
     <>
-      <SEOHead 
-        title="Terms of Service | İdeal Photo - User Agreement and Guidelines" 
-        description="Read our comprehensive terms of service to understand your rights and responsibilities when using İdeal Photo's virtual photo booth platform and services." 
+      <SEOHead
+        title="Terms of Service | İdeal Photo - User Agreement and Guidelines"
+        description="Read our comprehensive terms of service to understand your rights and responsibilities when using İdeal Photo's virtual photo booth platform and services."
         canonicalPath="/terms-of-service"
         keywords="terms of service, user agreement, legal terms, virtual photo booth terms, user rights, service conditions"
       />
@@ -24,7 +24,7 @@ const TermsOfService = () => {
               </div>
             </div>
           </section>
-          
+
           <section className="py-12">
             <div className="container mx-auto px-4 md:px-6 max-w-4xl">
               <div className="bg-white p-8 rounded-lg shadow-sm">

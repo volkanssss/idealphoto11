@@ -6,9 +6,9 @@ import Footer from '@/components/landing/Footer';
 const PrivacyPolicy = () => {
   return (
     <>
-      <SEOHead 
-        title="Privacy Policy | İdeal Photo - Your Privacy and Data Protection" 
-        description="Learn how İdeal Photo protects your privacy and handles your personal information. Read our comprehensive privacy policy for complete transparency and trust." 
+      <SEOHead
+        title="Privacy Policy | İdeal Photo - Your Privacy and Data Protection"
+        description="Learn how İdeal Photo protects your privacy and handles your personal information. Read our comprehensive privacy policy for complete transparency and trust."
         canonicalPath="/privacy-policy"
         keywords="privacy policy, data protection, user privacy, personal information, data security, privacy rights"
       />
@@ -23,7 +23,7 @@ const PrivacyPolicy = () => {
               </div>
             </div>
           </section>
-          
+
           <section className="py-12">
             <div className="container mx-auto px-4 md:px-6 max-w-4xl">
               <div className="bg-white p-8 rounded-lg shadow-sm">
@@ -79,9 +79,9 @@ const PrivacyPolicy = () => {
                     <li>These services may collect information about your visits to this and other websites</li>
                     <li>The information collected is used to provide relevant advertisements and improve our services</li>
                   </ul>
-                  
+
                   <p className="text-gray-700 mb-6">
-                    For more information about Google's privacy practices, please review Google's Privacy Policy at 
+                    For more information about Google's privacy practices, please review Google's Privacy Policy at
                     <a href="https://policies.google.com/privacy" className="text-purple-600 hover:text-purple-700"> https://policies.google.com/privacy</a>.
                   </p>
 
@@ -193,7 +193,7 @@ const PrivacyPolicy = () => {
                     <p className="text-gray-700 mb-2"><strong>Website:</strong> https://idealphotovercel.com</p>
                     <p className="text-gray-700"><strong>Business Address:</strong> Turkey</p>
                   </div>
-                  
+
                   <p className="text-gray-700 mt-4">
                     We are committed to addressing your privacy concerns promptly and transparently.
                   </p>

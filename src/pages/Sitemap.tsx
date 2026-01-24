@@ -67,9 +67,9 @@ const Sitemap = () => {
 
   return (
     <>
-      <SEOHead 
-        title="Sitemap - İdeal Photo | All Pages and Resources" 
-        description="Complete sitemap of İdeal Photo website. Find all pages, photo booth types, resources, and important links in one organized location." 
+      <SEOHead
+        title="Sitemap - İdeal Photo | All Pages and Resources"
+        description="Complete sitemap of İdeal Photo website. Find all pages, photo booth types, resources, and important links in one organized location."
         canonicalPath="/sitemap"
         keywords="sitemap, site map, website navigation, all pages, photo booth pages, virtual photo booth sitemap"
       />
@@ -101,7 +101,7 @@ const Sitemap = () => {
                       <div className="grid md:grid-cols-2 gap-6">
                         {section.links.map((link, linkIndex) => (
                           <div key={linkIndex} className="group">
-                            <a 
+                            <a
                               href={link.url}
                               className="flex items-start space-x-3 p-4 rounded-lg hover:bg-gray-50 transition-colors"
                             >
