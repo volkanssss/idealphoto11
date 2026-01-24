@@ -21,9 +21,9 @@ const CTASection = () => {
               className="bg-white text-purple-700 hover:bg-white/90"
               asChild
             >
-              <Link to="/kpop-photo-booth/">
+              <a href="https://idealphoto.net/">
                 Try K-pop Booth <ChevronRight className="ml-1" />
-              </Link>
+              </a>
             </Button>
             <Button
               size="lg"

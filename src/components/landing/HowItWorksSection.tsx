@@ -99,14 +99,14 @@ const HowItWorksSection = () => {
           </div>
         </div>
 
-        <Link to="/kpop-photo-booth/">
+        <a href="https://idealphoto.net/">
           <Button size="lg" className="bg-gradient-to-r from-pink-500 to-violet-500 hover:from-pink-600 hover:to-violet-600 text-white shadow-md hover:shadow-lg hover:shadow-pink-500/30 transition-all duration-300 group relative overflow-hidden">
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-pink-600 to-violet-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"></span>
             <span className="relative z-10 flex items-center">
               Try It Now <Download className="ml-2 h-5 w-5 animate-bounce" />
             </span>
           </Button>
-        </Link>
+        </a>
       </div>
     </div>
   </section>;

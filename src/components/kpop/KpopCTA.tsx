@@ -22,9 +22,9 @@ const KpopCTA: React.FC = () => {
               className="bg-white text-purple-600 hover:bg-white/90"
               asChild
             >
-              <Link to="/kpop-photo-booth/demo/">
+              <a href="https://idealphoto.net/">
                 Try Digital Booth Demo
-              </Link>
+              </a>
             </Button>
             <Button
               size="lg"

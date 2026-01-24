@@ -22,9 +22,9 @@ const VintageCTA = () => {
               className="bg-white text-amber-700 hover:bg-white/90 font-serif"
               asChild
             >
-              <Link to="/vintage-photobooth/demo/">
+              <a href="https://idealphoto.net/">
                 Try Vintage Booth <ArrowRight className="ml-1 h-5 w-5" />
-              </Link>
+              </a>
             </Button>
             <Button
               size="lg"

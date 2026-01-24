@@ -18,13 +18,13 @@ const ActionButtons: React.FC<ActionButtonsProps> = ({
   return (
     <div className="flex items-center gap-3">
       {!isMobile && (
-        <Link to="/kpop-photobooth/">
+        <a href="https://idealphoto.net/">
           <Button
             className="bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:from-purple-600 hover:to-pink-600 hover:shadow-md"
           >
             Try It Now
           </Button>
-        </Link>
+        </a>
       )}
 
       {/* Mobile Menu Button */}

@@ -22,9 +22,9 @@ const WeddingCTA = () => {
               className="bg-white text-pink-600 hover:bg-white/90 font-serif"
               asChild
             >
-              <Link to="/wedding-photobooth/demo/">
+              <a href="https://idealphoto.net/">
                 Try Wedding Booth Demo
-              </Link>
+              </a>
             </Button>
             <Button
               size="lg"

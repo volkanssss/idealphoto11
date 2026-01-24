@@ -106,11 +106,11 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row justify-center md:justify-start gap-4"
               variants={itemVariants}
             >
-              <Link to="/kpop-photobooth/" aria-label="Start creating photos">
+              <a href="https://idealphoto.net/" aria-label="Start creating photos">
                 <Button size="lg" className="w-full sm:w-auto bg-white text-[#8B5CF6] hover:bg-white/90 shadow-lg transition-all hover:shadow-xl">
                   Start Creating Now
                 </Button>
-              </Link>
+              </a>
               <Button
                 size="lg"
                 variant="outline"
