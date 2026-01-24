@@ -46,13 +46,13 @@ const PricingCard = ({
   isPWYW = false
 }: PricingCardProps) => {
   const [customAmount, setCustomAmount] = useState("5");
-  
+
   const handleDirectCheckout = () => {
     if (directCheckoutUrl) {
       window.location.href = directCheckoutUrl;
     }
   };
-  
+
   return (
     <div className={`${highlight ? 'border-2 border-pink-500 transform scale-105' : 'border border-gray-200'} rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md transition-all duration-300 relative group`}>
       {highlight && (
@@ -63,15 +63,15 @@ const PricingCard = ({
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2 group-hover:text-pink-600 transition-colors">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>
-        
+
         {isPWYW ? (
           <div className="mb-6 relative">
             <div className="flex items-end gap-2 mb-2">
               <span className="text-4xl font-bold">$</span>
-              <Input 
-                type="number" 
+              <Input
+                type="number"
                 min="1"
-                value={customAmount} 
+                value={customAmount}
                 onChange={(e) => setCustomAmount(e.target.value)}
                 className="w-20 text-2xl font-bold p-2 border-b border-gray-300 focus:border-pink-500"
               />
@@ -87,7 +87,7 @@ const PricingCard = ({
             <div className="w-0 h-1 bg-gradient-to-r from-pink-400 to-violet-400 absolute -bottom-2 left-0 group-hover:w-16 transition-all duration-500"></div>
           </div>
         )}
-        
+
         <ul className="space-y-3 mb-6">
           {features.map((feature, index) => (
             <li key={index} className={`flex items-center ${feature.included ? 'text-gray-700' : 'text-gray-400'}`}>
@@ -104,10 +104,10 @@ const PricingCard = ({
             </li>
           ))}
         </ul>
-        
+
         {directCheckoutUrl ? (
-          <Button 
-            variant={buttonVariant} 
+          <Button
+            variant={buttonVariant}
             className={`w-full ${buttonClassName}`}
             onClick={handleDirectCheckout}
           >
@@ -122,7 +122,7 @@ const PricingCard = ({
             buttonClassName={buttonClassName}
           />
         ) : (
-          <Link to="/pricing">
+          <Link to="/pricing/">
             <Button variant={buttonVariant} className={`w-full ${buttonClassName}`}>
               {isPWYW ? `Pay $${customAmount} ${buttonText}` : buttonText}
             </Button>

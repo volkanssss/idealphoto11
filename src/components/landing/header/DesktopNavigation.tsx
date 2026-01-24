@@ -10,25 +10,25 @@ interface DesktopNavigationProps {
 const DesktopNavigation: React.FC<DesktopNavigationProps> = ({ handleLinkClick }) => {
   const navLinks = [
     { title: 'Home', path: '/' },
-    { 
-      title: 'Photobooths', 
-      path: '#', 
-      isDropdown: true, 
+    {
+      title: 'Photobooths',
+      path: '#',
+      isDropdown: true,
       items: [
-        { title: 'Pica Pica Booth', path: '/pica-pica-booth' },
-        { title: 'Digibooth', path: '/digibooth' },
-        { title: 'K-pop Photo Booth', path: '/kpop-photobooth' },
-        { title: 'Vintage Photobooth', path: '/vintage-photobooth' },
-        { title: 'Wedding Photobooth', path: '/wedding-photobooth' },
-        { title: 'Easy4Cut', path: '/easy4cut-photobooth' },
-        { title: 'Memorify', path: '/memorify-photobooth' },
-        { title: 'Chinchinbooth', path: '/chinchinbooth' },
+        { title: 'Pica Pica Booth', path: '/pica-pica-booth/' },
+        { title: 'Digibooth', path: '/digibooth/' },
+        { title: 'K-pop Photo Booth', path: '/kpop-photobooth/' },
+        { title: 'Vintage Photobooth', path: '/vintage-photobooth/' },
+        { title: 'Wedding Photobooth', path: '/wedding-photobooth/' },
+        { title: 'Easy4Cut', path: '/easy4cut-photobooth/' },
+        { title: 'Memorify', path: '/memorify-photobooth/' },
+        { title: 'Chinchinbooth', path: '/chinchinbooth/' },
       ]
     },
-    { title: 'About', path: '/about' },
-    { title: 'Pricing', path: '/pricing' },
-    { title: 'Blog', path: '/blog' },
-    { title: 'Contact', path: '/contact' },
+    { title: 'About', path: '/about/' },
+    { title: 'Pricing', path: '/pricing/' },
+    { title: 'Blog', path: '/blog/' },
+    { title: 'Contact', path: '/contact/' },
   ];
 
   return (

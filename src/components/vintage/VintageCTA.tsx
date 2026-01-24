@@ -17,27 +17,27 @@ const VintageCTA = () => {
             Experience the charm of vintage photography with our digital photobooth
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-white text-amber-700 hover:bg-white/90 font-serif"
               asChild
             >
-              <Link to="/vintage-photobooth/demo">
+              <Link to="/vintage-photobooth/demo/">
                 Try Vintage Booth <ArrowRight className="ml-1 h-5 w-5" />
               </Link>
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
+            <Button
+              size="lg"
+              variant="outline"
               className="border-white text-white hover:bg-white/10 font-serif"
               asChild
             >
-              <Link to="/pricing">
+              <Link to="/pricing/">
                 See Pricing Options
               </Link>
             </Button>
           </div>
-          
+
           <div className="mt-8 text-white/80 italic font-serif">
             "Bringing back the nostalgic feel of vintage photo booths with modern technology"
           </div>

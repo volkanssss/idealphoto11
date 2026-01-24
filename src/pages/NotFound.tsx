@@ -23,16 +23,16 @@ const NotFound = () => {
               <div className="text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-600">404</div>
             </div>
             <svg className="animate-spin-slow absolute inset-0 w-full h-full" viewBox="0 0 100 100">
-              <circle 
-                className="stroke-pink-500/20" 
-                cx="50" cy="50" r="40" 
-                strokeWidth="5" 
+              <circle
+                className="stroke-pink-500/20"
+                cx="50" cy="50" r="40"
+                strokeWidth="5"
                 fill="none"
               />
-              <circle 
-                className="stroke-pink-500" 
-                cx="50" cy="50" r="40" 
-                strokeWidth="5" 
+              <circle
+                className="stroke-pink-500"
+                cx="50" cy="50" r="40"
+                strokeWidth="5"
                 fill="none"
                 strokeDasharray="250"
                 strokeDashoffset="90"

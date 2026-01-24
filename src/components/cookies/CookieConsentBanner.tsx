@@ -45,9 +45,9 @@ const CookieConsentBanner = () => {
           <div>
             <h3 className="font-semibold text-gray-900 text-sm sm:text-base">Cookie Notice</h3>
             <p className="text-gray-600 text-xs sm:text-sm mt-1 max-w-2xl">
-              İdeal Photo uses essential cookies to enhance your experience and ensure proper functionality. 
+              İdeal Photo uses essential cookies to enhance your experience and ensure proper functionality.
               By clicking "Accept", you consent to our use of cookies. Learn more in our{' '}
-              <Link to="/cookie-policy" className="text-purple-600 hover:underline">
+              <Link to="/cookie-policy/" className="text-purple-600 hover:underline">
                 Cookie Policy
               </Link>.
             </p>
