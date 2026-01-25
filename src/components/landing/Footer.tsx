@@ -236,6 +236,10 @@ const Footer = () => {
               Ideal Photo Vercel processes all images locally on your device. We respect your privacy and do not store any personal photos.
               All K-pop idol images are used for fan appreciation purposes only.
             </p>
+            <p className="mt-2 text-gray-600">
+              IdealPhoto is not affiliated with Easy4Cut, Easy4Cut.com, or Memorify Photobooth.
+              All brand names are used for informational and comparison purposes only.
+            </p>
           </div>
         </div>
       </div>

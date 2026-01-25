@@ -88,18 +88,25 @@ const HeroSection = () => {
 
             <motion.h1
               id="hero-heading"
-              className="text-4xl md:text-6xl font-bold tracking-tight text-white mb-6 leading-tight"
+              className="text-4xl md:text-6xl font-bold tracking-tight text-white mb-2 leading-tight"
               variants={itemVariants}
             >
-              Free K-pop Photo Booth Online<br />
-              <span className="bg-gradient-to-r from-white to-pink-200 bg-clip-text text-transparent">Photobooth with ENHYPEN, NCT, BTS & More Idols</span>
+              Easy4Cut & Memorify-Style Online Photo Booth
             </motion.h1>
 
             <motion.p
-              className="text-lg md:text-xl text-white/80 mb-8 max-w-lg mx-auto md:mx-0"
+              className="text-xl md:text-2xl font-semibold text-pink-100 mb-6"
               variants={itemVariants}
             >
-              Create stunning K-pop photobooth pictures online for free with your favorite K-pop idols - ENHYPEN, NCT Dream, BTS, BLACKPINK. Professional photo strips, filters & instant download. No registration needed.
+              Create aesthetic photo booth layouts online with IdealPhoto
+            </motion.p>
+
+            <motion.p
+              className="text-lg md:text-xl text-video/80 mb-8 max-w-lg mx-auto md:mx-0"
+              variants={itemVariants}
+            >
+              IdealPhoto lets you create Easy4Cut-style and Memorify photobooth photos online.
+              Perfect for K-pop fans, couples, friends, and events — instant, digital, and easy to use.
             </motion.p>
 
             <motion.div

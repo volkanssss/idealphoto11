@@ -68,6 +68,7 @@ const App = () => (
             <Route path="/beautyplus-photobooth/" element={<BeautyPlusPhotobooth />} />
             <Route path="/jepreto-photobooth/" element={<JepretoPhotobooth />} />
             <Route path="/easy4cut-photobooth/" element={<Easy4CutPhotobooth />} />
+            <Route path="/easy4cut/" element={<Easy4CutPhotobooth />} />
             <Route path="/4-cut-photo-booth-online/" element={<Easy4CutPhotobooth />} />
             <Route path="/memorify-photobooth/" element={<MemorifyPhotobooth />} />
             <Route path="/blog/" element={<Blog />} />

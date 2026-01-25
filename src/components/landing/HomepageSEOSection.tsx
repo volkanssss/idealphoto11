@@ -20,17 +20,19 @@ const HomepageSEOSection = () => {
               <h3 className="text-xl font-semibold mb-4 text-gray-900">Professional Easy4Cut Style Results</h3>
               <p className="text-gray-700 leading-relaxed">
                 Our advanced photo processing technology ensures every picture looks professional.
-                Get the authentic <strong>Easy4Cut.com</strong> style aesthetic with high-resolution output and
-                crystal-clear image quality. Perfect for social media, personal keepsakes, or professional portfolios.
+                Get the authentic <strong>Easy4Cut.com</strong> style aesthetic and
+                <strong>easy4cut com photobooth</strong> quality with high-resolution output.
+                Perfect for social media, personal keepsakes, or professional portfolios.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-4 text-gray-900">Better Than Memorify Photobooth</h3>
               <p className="text-gray-700 leading-relaxed">
-                Choose from hundreds of frames, filters, backgrounds, and stickers. Whether you're
-                looking for <strong>Easy4Cut Kpop</strong> inspired photos, vintage memories, or modern
-                digital art - our <strong>Ideal Photo Vercel</strong> platform offers unlimited creative possibilities.
+                Experience the best <strong>Memorify Photobooth</strong> alternative with richer features.
+                Whether you're looking for <strong>Easy4Cut Kpop</strong> inspired frames,
+                <strong>Easy4Cut.com photobooth</strong> style layouts, or modern digital art - our
+                <strong>Ideal Photo Vercel</strong> platform offers unlimited creative possibilities.
               </p>
             </div>
 
@@ -53,34 +55,40 @@ const HomepageSEOSection = () => {
             </div>
           </div>
 
-          <div className="bg-white p-8 rounded-lg shadow-sm">
-            <h3 className="text-2xl font-semibold mb-6 text-gray-900 text-center">
-              Perfect for Every Occasion
-            </h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="text-center">
-                <h4 className="font-semibold text-gray-800 mb-2">Personal Memories</h4>
-                <p className="text-gray-600 text-sm">
-                  Create fun photos with friends, celebrate special moments, or express your fandom
-                  with K-pop themes and celebrity collaborations.
-                </p>
-              </div>
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h2 className="text-xl font-semibold mb-3 text-gray-900">What Is Easy4Cut and Why Is It So Popular?</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Easy4Cut is a well-known photo booth concept loved for its clean layouts and K-pop inspired frames.
+                Many users searching for <strong>easy4cut</strong>, <strong>easy4cut.com</strong>, or <strong>easy4cut com photobooth</strong> are actually looking for a similar experience online.
+              </p>
+              <a href="/easy4cut/" className="text-purple-600 font-medium hover:underline">Easy4Cut-style photo booth →</a>
+            </div>
 
-              <div className="text-center">
-                <h4 className="font-semibold text-gray-800 mb-2">Events & Celebrations</h4>
-                <p className="text-gray-600 text-sm">
-                  Perfect for weddings, birthday parties, corporate events, and celebrations.
-                  Add a unique touch that guests will remember forever.
-                </p>
-              </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h2 className="text-xl font-semibold mb-3 text-gray-900">Easy4Cut K-Pop Photo Booth Experience – Online Alternative</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                IdealPhoto offers <strong>Easy4Cut K-pop</strong> inspired photo layouts that can be created online.
+                No physical booth required — just upload your photos and get idol-style frames instantly.
+              </p>
+              <a href="/kpop-photobooth/" className="text-purple-600 font-medium hover:underline">K-pop photo booth →</a>
+            </div>
 
-              <div className="text-center">
-                <h4 className="font-semibold text-gray-800 mb-2">Business & Marketing</h4>
-                <p className="text-gray-600 text-sm">
-                  Engage customers, create branded content, and boost social media presence
-                  with interactive photo experiences for your business.
-                </p>
-              </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h2 className="text-xl font-semibold mb-3 text-gray-900">Memorify Photobooth vs IdealPhoto</h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                <strong>Memorify Photobooth</strong> focuses on studio-based experiences.
+                IdealPhoto brings a similar photobooth style online, allowing instant creation and digital sharing.
+              </p>
+              <a href="/memorify-photobooth/" className="text-purple-600 font-medium hover:underline">Memorify photobooth alternative →</a>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h2 className="text-xl font-semibold mb-3 text-gray-900">Looking for Easy4Cut.com?</h2>
+              <p className="text-gray-700 leading-relaxed">
+                Users searching for <strong>easy4cut.com</strong>, <strong>easy4cut com</strong>, or <strong>easy4cut.com photobooth</strong> are often looking for photo booth examples or alternatives.
+                IdealPhoto is an independent platform inspired by popular photo booth styles like Easy4Cut.
+              </p>
             </div>
           </div>
 
