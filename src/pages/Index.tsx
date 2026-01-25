@@ -9,6 +9,7 @@ import Footer from '@/components/landing/Footer';
 import HomepageSEOSection from '@/components/landing/HomepageSEOSection';
 import HowItWorksSection from '@/components/landing/HowItWorksSection';
 import FeatureHighlights from '@/components/landing/sections/FeatureHighlights';
+import FAQSection from '@/components/landing/FAQSection';
 const homepageStructuredData = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
@@ -267,6 +268,7 @@ const Index = () => {
           </div>
         </section>
 
+        <FAQSection />
         <CTASection />
 
         <HomepageSEOSection />
