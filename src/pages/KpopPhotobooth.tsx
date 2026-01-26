@@ -1,6 +1,7 @@
 
+
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEOHead from '@/components/landing/SEOHead';
 import PhotoboothLayout from '@/components/photobooth/PhotoboothLayout';
 import KpopHeroArea from '@/components/kpop/KpopHeroArea';
 import KpopPhotoBoothTabs from '@/components/kpop/sections/KpopPhotoBoothTabs';
@@ -62,15 +63,13 @@ const KpopPhotobooth = () => {
 
   return (
     <>
-      <Helmet>
-        <title>K-pop Photo Booth | Create Idol-Inspired Photos | İdeal Photo</title>
-        <meta name="description" content="Create stunning K-pop photo booth pictures with idol themes, stickers, and backgrounds. Perfect for ARMY, ONCE, BLINK, and all K-pop fans. Start creating now!" />
-        <meta name="keywords" content="kpop photo booth, idol photo booth, bts photo booth, blackpink photo booth, twice photo booth, stray kids photo booth, kpop stickers, idol backgrounds" />
-        <link rel="canonical" href="https://idealphotovercel.com/kpop-photobooth/" />
-        <script type="application/ld+json">
-          {JSON.stringify(kpopStructuredData)}
-        </script>
-      </Helmet>
+      <SEOHead
+        title="K-pop Photo Booth | Create Idol-Inspired Photos | İdeal Photo"
+        description="Create stunning K-pop photo booth pictures with idol themes, stickers, and backgrounds. Perfect for ARMY, ONCE, BLINK, and all K-pop fans. Start creating now!"
+        canonicalPath="/kpop-photobooth"
+        keywords="kpop photo booth, idol photo booth, bts photo booth, blackpink photo booth, twice photo booth, stray kids photo booth, kpop stickers, idol backgrounds"
+        structuredData={kpopStructuredData}
+      />
 
       <PhotoboothLayout type="kpop">
         <KpopHeroArea />

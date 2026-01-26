@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEOHead from '@/components/landing/SEOHead';
 import PhotoboothLayout from '@/components/photobooth/PhotoboothLayout';
 import DigiboothHeroArea from '@/components/digibooth/DigiboothHeroArea';
 import DigiboothTabbedContent from '@/components/digibooth/tabs/DigiboothTabbedContent';
@@ -75,15 +75,13 @@ const Digibooth = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Digital Photo Booth | Professional Event Photo Booth Software | Ideal Photo</title>
-        <meta name="description" content="Professional digital photo booth software for events, weddings, and corporate gatherings. Advanced customization with instant sharing capabilities. Try our free online photo booth today!" />
-        <meta name="keywords" content="digital photo booth, online photo booth, virtual photo booth software, event photo booth, wedding photo booth, corporate photo booth, ideal photo booth" />
-        <link rel="canonical" href="https://idealphotovercel.com/digibooth/" />
-        <script type="application/ld+json">
-          {JSON.stringify(digiboothStructuredData)}
-        </script>
-      </Helmet>
+      <SEOHead
+        title="Digital Photo Booth | Professional Event Photo Booth Software | Ideal Photo"
+        description="Professional digital photo booth software for events, weddings, and corporate gatherings. Advanced customization with instant sharing capabilities. Try our free online photo booth today!"
+        canonicalPath="/digibooth"
+        keywords="digital photo booth, online photo booth, virtual photo booth software, event photo booth, wedding photo booth, corporate photo booth, ideal photo booth"
+        structuredData={digiboothStructuredData}
+      />
 
       <PhotoboothLayout type="digibooth">
         <DigiboothHeroArea />

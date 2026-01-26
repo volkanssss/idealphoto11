@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEOHead from '@/components/landing/SEOHead';
 import Header from '@/components/landing/Header';
 import Footer from '@/components/landing/Footer';
 import { Button } from '@/components/ui/button';
@@ -74,15 +74,13 @@ const Pricing = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Pricing Plans - İdeal Photo Virtual Photo Booth | Affordable Photo Booth Services</title>
-        <meta name="description" content="Affordable pricing for İdeal Photo virtual photo booth services. Free plan available. Pro plans starting at $19/month. Perfect for events, businesses, and personal use." />
-        <meta name="keywords" content="photo booth pricing, virtual photo booth cost, photo booth plans, affordable photo booth, photo booth subscription" />
-        <link rel="canonical" href="https://idealphotovercel.com/pricing/" />
-        <script type="application/ld+json">
-          {JSON.stringify(pricingStructuredData)}
-        </script>
-      </Helmet>
+      <SEOHead
+        title="Pricing Plans - İdeal Photo Virtual Photo Booth | Affordable Photo Booth Services"
+        description="Affordable pricing for İdeal Photo virtual photo booth services. Free plan available. Pro plans starting at $19/month. Perfect for events, businesses, and personal use."
+        canonicalPath="/pricing"
+        keywords="photo booth pricing, virtual photo booth cost, photo booth plans, affordable photo booth, photo booth subscription"
+        structuredData={pricingStructuredData}
+      />
 
       <div className="min-h-screen flex flex-col">
         <Header />

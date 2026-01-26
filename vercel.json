@@ -147,10 +147,6 @@
         {
           "key": "X-Robots-Tag",
           "value": "index, follow"
-        },
-        {
-          "key": "Link",
-          "value": "<https://idealphotovercel.com/>; rel=\"canonical\""
         }
       ]
     },
@@ -160,51 +156,6 @@
         {
           "key": "Content-Type",
           "value": "application/xml"
-        }
-      ]
-    },
-    {
-      "source": "/digibooth",
-      "headers": [
-        {
-          "key": "Link",
-          "value": "<https://idealphotovercel.com/digibooth/>; rel=\"canonical\""
-        }
-      ]
-    },
-    {
-      "source": "/pica-pica-booth",
-      "headers": [
-        {
-          "key": "Link",
-          "value": "<https://idealphotovercel.com/pica-pica-booth/>; rel=\"canonical\""
-        }
-      ]
-    },
-    {
-      "source": "/wedding-photobooth",
-      "headers": [
-        {
-          "key": "Link",
-          "value": "<https://idealphotovercel.com/wedding-photobooth/>; rel=\"canonical\""
-        }
-      ]
-    },
-    {
-      "source": "/kpop-photobooth",
-      "headers": [
-        {
-          "key": "Link",
-          "value": "<https://idealphotovercel.com/kpop-photobooth/>; rel=\"canonical\""
-        }
-      ]
-    },
-    {
-      "source": "/vintage-photobooth",
-      "headers": [
-        {
-          "key": "Link",
-          "value": "<https://idealphotovercel.com/vintage-photobooth/>; rel=\"canonical\""
         }
       ]
     }
