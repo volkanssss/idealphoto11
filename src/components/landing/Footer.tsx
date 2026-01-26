@@ -36,22 +36,22 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/about/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/about" className="text-gray-400 hover:text-white transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/faq/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/faq" className="text-gray-400 hover:text-white transition-colors">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link to="/contact/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/contact" className="text-gray-400 hover:text-white transition-colors">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/sitemap/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/sitemap" className="text-gray-400 hover:text-white transition-colors">
                   Sitemap
                 </Link>
               </li>
@@ -63,52 +63,52 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Photo Booths</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/kpop-photobooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/kpop-photobooth" className="text-gray-400 hover:text-white transition-colors">
                   K-pop Photobooth
                 </Link>
               </li>
               <li>
-                <Link to="/digibooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/digibooth" className="text-gray-400 hover:text-white transition-colors">
                   Digital Booth
                 </Link>
               </li>
               <li>
-                <Link to="/vintage-photobooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/vintage-photobooth" className="text-gray-400 hover:text-white transition-colors">
                   Vintage Photobooth
                 </Link>
               </li>
               <li>
-                <Link to="/wedding-photobooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/wedding-photobooth" className="text-gray-400 hover:text-white transition-colors">
                   Wedding Photobooth
                 </Link>
               </li>
               <li>
-                <Link to="/pica-pica-photobooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/pica-pica-photobooth" className="text-gray-400 hover:text-white transition-colors">
                   Pica-Pica Booth
                 </Link>
               </li>
               <li>
-                <Link to="/selfie-photobooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/selfie-photobooth" className="text-gray-400 hover:text-white transition-colors">
                   Selfie Booth
                 </Link>
               </li>
               <li>
-                <Link to="/party-photobooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/party-photobooth" className="text-gray-400 hover:text-white transition-colors">
                   Party Booth
                 </Link>
               </li>
               <li>
-                <Link to="/chinchinbooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/chinchinbooth" className="text-gray-400 hover:text-white transition-colors">
                   Chinchinbooth
                 </Link>
               </li>
               <li>
-                <Link to="/beautyplus-photobooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/beautyplus-photobooth" className="text-gray-400 hover:text-white transition-colors">
                   BeautyPlus Booth
                 </Link>
               </li>
               <li>
-                <Link to="/jepreto-photobooth/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/jepreto-photobooth" className="text-gray-400 hover:text-white transition-colors">
                   Jepreto Booth
                 </Link>
               </li>
@@ -120,27 +120,27 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/blog/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/blog" className="text-gray-400 hover:text-white transition-colors">
                   Blog & News
                 </Link>
               </li>
               <li>
-                <Link to="/tutorials/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/tutorials" className="text-gray-400 hover:text-white transition-colors">
                   Tutorials
                 </Link>
               </li>
               <li>
-                <Link to="/gallery/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/gallery" className="text-gray-400 hover:text-white transition-colors">
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link to="/use-cases/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/use-cases" className="text-gray-400 hover:text-white transition-colors">
                   Use Cases
                 </Link>
               </li>
               <li>
-                <Link to="/resources/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/resources" className="text-gray-400 hover:text-white transition-colors">
                   All Resources
                 </Link>
               </li>
@@ -152,22 +152,22 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Support</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/help/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/help" className="text-gray-400 hover:text-white transition-colors">
                   Help Center
                 </Link>
               </li>
               <li>
-                <Link to="/faq/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/faq" className="text-gray-400 hover:text-white transition-colors">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link to="/contact/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/contact" className="text-gray-400 hover:text-white transition-colors">
                   Contact Support
                 </Link>
               </li>
               <li>
-                <Link to="/blog/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/blog" className="text-gray-400 hover:text-white transition-colors">
                   Tutorials & Guides
                 </Link>
               </li>
@@ -179,27 +179,27 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/about/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/about" className="text-gray-400 hover:text-white transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/careers/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/careers" className="text-gray-400 hover:text-white transition-colors">
                   Careers
                 </Link>
               </li>
               <li>
-                <Link to="/privacy-policy/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="/terms-of-service/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/terms-of-service" className="text-gray-400 hover:text-white transition-colors">
                   Terms of Service
                 </Link>
               </li>
               <li>
-                <Link to="/cookie-policy/" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/cookie-policy" className="text-gray-400 hover:text-white transition-colors">
                   Cookie Policy
                 </Link>
               </li>

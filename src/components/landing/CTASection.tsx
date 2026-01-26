@@ -31,7 +31,7 @@ const CTASection = () => {
               className="border-white text-white hover:bg-white/10"
               asChild
             >
-              <Link to="/pricing/">
+              <Link to="/pricing">
                 See Pricing Options
               </Link>
             </Button>

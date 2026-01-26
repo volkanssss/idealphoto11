@@ -62,7 +62,7 @@ const HomepageSEOSection = () => {
                 Easy4Cut is a well-known photo booth concept loved for its clean layouts and K-pop inspired frames.
                 Many users searching for <strong>easy4cut</strong>, <strong>easy4cut.com</strong>, or <strong>easy4cut com photobooth</strong> are actually looking for a similar experience online.
               </p>
-              <a href="/easy4cut/" className="text-purple-600 font-medium hover:underline">Easy4Cut-style photo booth →</a>
+              <a href="/easy4cut" className="text-purple-600 font-medium hover:underline">Easy4Cut-style photo booth →</a>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -71,7 +71,7 @@ const HomepageSEOSection = () => {
                 IdealPhoto offers <strong>Easy4Cut K-pop</strong> inspired photo layouts that can be created online.
                 No physical booth required — just upload your photos and get idol-style frames instantly.
               </p>
-              <a href="/kpop-photobooth/" className="text-purple-600 font-medium hover:underline">K-pop photo booth →</a>
+              <a href="/kpop-photobooth" className="text-purple-600 font-medium hover:underline">K-pop photo booth →</a>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -80,7 +80,7 @@ const HomepageSEOSection = () => {
                 <strong>Memorify Photobooth</strong> focuses on studio-based experiences.
                 IdealPhoto brings a similar photobooth style online, allowing instant creation and digital sharing.
               </p>
-              <a href="/memorify-photobooth/" className="text-purple-600 font-medium hover:underline">Memorify photobooth alternative →</a>
+              <a href="/memorify-photobooth" className="text-purple-600 font-medium hover:underline">Memorify photobooth alternative →</a>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">

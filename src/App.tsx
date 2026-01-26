@@ -48,37 +48,37 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/about/" element={<About />} />
-            <Route path="/contact/" element={<Contact />} />
-            <Route path="/faq/" element={<FAQ />} />
-            <Route path="/pricing/" element={<Pricing />} />
-            <Route path="/privacy-policy/" element={<PrivacyPolicy />} />
-            <Route path="/terms-of-service/" element={<TermsOfService />} />
-            <Route path="/cookie-policy/" element={<CookiePolicy />} />
-            <Route path="/sitemap/" element={<Sitemap />} />
-            <Route path="/kpop-photobooth/" element={<KpopPhotobooth />} />
-            <Route path="/vintage-photobooth/" element={<LittleVintagePhotobooth />} />
-            <Route path="/digibooth/" element={<Digibooth />} />
-            <Route path="/wedding-photobooth/" element={<WeddingPhotobooth />} />
-            <Route path="/pica-pica-booth/" element={<PicaPicaPhotobooth />} />
-            <Route path="/pica-pica-photobooth/" element={<PicaPicaPhotobooth />} />
-            <Route path="/selfie-photobooth/" element={<SelfiePhotobooth />} />
-            <Route path="/party-photobooth/" element={<PartyPhotobooth />} />
-            <Route path="/chinchinbooth/" element={<Chinchinbooth />} />
-            <Route path="/beautyplus-photobooth/" element={<BeautyPlusPhotobooth />} />
-            <Route path="/jepreto-photobooth/" element={<JepretoPhotobooth />} />
-            <Route path="/easy4cut-photobooth/" element={<Easy4CutPhotobooth />} />
-            <Route path="/easy4cut/" element={<Easy4CutPhotobooth />} />
-            <Route path="/4-cut-photo-booth-online/" element={<Easy4CutPhotobooth />} />
-            <Route path="/memorify-photobooth/" element={<MemorifyPhotobooth />} />
-            <Route path="/blog/" element={<Blog />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
+            <Route path="/sitemap" element={<Sitemap />} />
+            <Route path="/kpop-photobooth" element={<KpopPhotobooth />} />
+            <Route path="/vintage-photobooth" element={<LittleVintagePhotobooth />} />
+            <Route path="/digibooth" element={<Digibooth />} />
+            <Route path="/wedding-photobooth" element={<WeddingPhotobooth />} />
+            <Route path="/pica-pica-booth" element={<PicaPicaPhotobooth />} />
+            <Route path="/pica-pica-photobooth" element={<PicaPicaPhotobooth />} />
+            <Route path="/selfie-photobooth" element={<SelfiePhotobooth />} />
+            <Route path="/party-photobooth" element={<PartyPhotobooth />} />
+            <Route path="/chinchinbooth" element={<Chinchinbooth />} />
+            <Route path="/beautyplus-photobooth" element={<BeautyPlusPhotobooth />} />
+            <Route path="/jepreto-photobooth" element={<JepretoPhotobooth />} />
+            <Route path="/easy4cut-photobooth" element={<Easy4CutPhotobooth />} />
+            <Route path="/easy4cut" element={<Easy4CutPhotobooth />} />
+            <Route path="/4-cut-photo-booth-online" element={<Easy4CutPhotobooth />} />
+            <Route path="/memorify-photobooth" element={<MemorifyPhotobooth />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
-            <Route path="/help/" element={<HelpCenter />} />
-            <Route path="/tutorials/" element={<Tutorials />} />
-            <Route path="/gallery/" element={<Gallery />} />
-            <Route path="/resources/" element={<Resources />} />
-            <Route path="/use-cases/" element={<UseCases />} />
-            <Route path="/careers/" element={<Careers />} />
+            <Route path="/help" element={<HelpCenter />} />
+            <Route path="/tutorials" element={<Tutorials />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/use-cases" element={<UseCases />} />
+            <Route path="/careers" element={<Careers />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <CookieConsentBanner />

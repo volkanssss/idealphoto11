@@ -122,7 +122,7 @@ const PricingCard = ({
             buttonClassName={buttonClassName}
           />
         ) : (
-          <Link to="/pricing/">
+          <Link to="/pricing">
             <Button variant={buttonVariant} className={`w-full ${buttonClassName}`}>
               {isPWYW ? `Pay $${customAmount} ${buttonText}` : buttonText}
             </Button>
