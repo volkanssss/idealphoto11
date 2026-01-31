@@ -4,6 +4,7 @@ import PhotoboothLayout from '@/components/photobooth/PhotoboothLayout';
 import DigiboothHeroArea from '@/components/digibooth/DigiboothHeroArea';
 import DigiboothTabbedContent from '@/components/digibooth/tabs/DigiboothTabbedContent';
 import DigiboothSaasFooter from '@/components/digibooth/DigiboothSaasFooter';
+import DigiboothSEOSection from '@/components/digibooth/DigiboothSEOSection';
 import useDigiboothState from '@/hooks/useDigiboothState';
 import { useState } from 'react';
 import { downloadPhotoStrip } from '@/utils/downloadPhotoStrip';
@@ -113,6 +114,7 @@ const Digibooth = () => {
           />
         </main>
 
+        <DigiboothSEOSection />
         <DigiboothSaasFooter />
       </PhotoboothLayout>
     </>

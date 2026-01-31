@@ -10,8 +10,11 @@ import { post8 } from './tips-tricks/creative-photo-booth-ideas';
 import { post9 } from './guides/kpop-beginner-guide';
 import { post10 } from './guides/photo-strip-design-tips';
 import { post11 } from './trends/virtual-photo-booth-trends-2025';
+import { post12 } from './trends/top-wedding-trends-2025';
+import { post13 } from './tutorials/perfect-vintage-strip';
+import { post14 } from './trends/future-of-events';
 
-export const blogPosts = [post11, post10, post9, post8, post7, post1, post2, post3, post4, post5, post6];
+export const blogPosts = [post14, post13, post12, post11, post10, post9, post8, post7, post1, post2, post3, post4, post5, post6];
 
 export type BlogPost = {
   id: number;
