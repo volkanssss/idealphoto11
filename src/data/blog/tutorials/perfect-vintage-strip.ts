@@ -2,22 +2,22 @@
 import { BlogPost } from '../index';
 
 export const post13: BlogPost = {
-    id: 13,
-    title: "How to Create the Perfect Vintage Photo Strip Online",
-    slug: "create-perfect-vintage-photo-strip",
-    excerpt: "Master the art of retro photography with our guide to creating authentic-looking vintage photo strips using online tools. Tips on lighting, poses, and filter selection.",
-    category: "Tutorials",
-    date: "2025-05-20",
-    imageUrl: "https://images.unsplash.com/photo-1595066607212-07775949e290?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    author: {
-        name: "Alex Rivera",
-        role: "Creative Director",
-        avatar: "https://randomuser.me/api/portraits/men/32.jpg"
-    },
-    tags: ["Tutorial", "Vintage", "Photography Tips", "DIY"],
-    content: `
+  id: 13,
+  title: "How to Create the Perfect Vintage Photo Strip Online",
+  slug: "create-perfect-vintage-photo-strip",
+  excerpt: "Master the art of retro photography with our guide to creating authentic-looking vintage photo strips using online tools. Tips on lighting, poses, and filter selection.",
+  category: "Tutorials",
+  date: "2025-05-20",
+  imageUrl: "https://images.unsplash.com/photo-1595066607212-07775949e290?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  author: {
+    name: "Alex Rivera",
+    role: "Creative Director",
+    avatar: "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  tags: ["Tutorial", "Vintage", "Photography Tips", "DIY"],
+  content: `
     <h2>The Timeless Appeal of the Photo Strip</h2>
-    <p>There's something magically nostalgic about a 4-frame photo strip. It reminds us of mall dates, boardwalk arcades, and spontaneous fun. Today, you don't need to hunt for an old-fashioned chemical booth to get that look. You can recreate it perfectly online with <a href="/vintage-photobooth">Little Vintage Photo Booth</a>.</p>
+    <p>There's something magically nostalgic about a 4-frame photo strip. Whether you love the classic vibes of <strong>Easy4Cut</strong> or the fun frames of <strong>ChinChin Booth</strong>, that detailed 4-cut aesthetic is timeless. Today, you don't need to hunt for an old-fashioned chemical booth to get that look. You can recreate it perfectly online with our free <a href="/vintage-photobooth">Vintage Photobooth App</a>.</p>
 
     <h3>Step 1: Lighting is Everything</h3>
     <p>Even with the best vintage filters, lighting matters. For that authentic 90s booth look, you actually don't want perfect, soft lighting. A slightly direct, harder light source (like a ring light or a desk lamp positioned near the camera) mimics the camera flash of old booths. This creates those defining shadows that add depth.</p>

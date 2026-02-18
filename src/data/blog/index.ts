@@ -2,7 +2,7 @@
 import { post1 } from './tips-tricks/top-kpop-photo-ideas';
 import { post2 } from './tutorials/perfect-fan-photo-guide';
 import { post3 } from './behind-scenes/behind-the-scenes-idol-assets';
-import { post4 } from './trends/kpop-photo-trends-2023';
+import { post4 } from './trends/kpop-photo-trends-2025';
 import { post5 } from './community/fan-stories-photo-memories';
 import { post6 } from './updates/new-features-backgrounds-stickers';
 import { post7 } from './tutorials/virtual-photo-booth-setup-2025';
@@ -14,7 +14,7 @@ import { post12 } from './trends/top-wedding-trends-2025';
 import { post13 } from './tutorials/perfect-vintage-strip';
 import { post14 } from './trends/future-of-events';
 
-export const blogPosts = [post14, post13, post12, post11, post10, post9, post8, post7, post1, post2, post3, post4, post5, post6];
+export const blogPosts = [post14, post13, post12, post11, post4, post10, post9, post8, post7, post1, post2, post3, post5, post6];
 
 export type BlogPost = {
   id: number;
