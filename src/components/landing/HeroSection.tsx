@@ -91,7 +91,7 @@ const HeroSection = () => {
               className="text-4xl md:text-6xl font-bold tracking-tight text-white mb-2 leading-tight"
               variants={itemVariants}
             >
-              Easy4Cut & Memorify-Style Online Photo Booth
+              Kpop Photobooth Online – Create Photo Strips Instantly
             </motion.h1>
 
             <motion.p

@@ -32,10 +32,10 @@ const Index = () => {
   return (
     <>
       <SEOHead
-        title="IdealPhoto – Easy4Cut & Memorify Photobooth Alternative | Online Photo Booth"
-        description="IdealPhoto is an online photo booth inspired by Easy4Cut and Memorify Photobooth. Create K-pop style, couple, and group photo layouts instantly — no studio needed."
+        title="Kpop Photobooth Online – Easy4Cut, Memorify & Chinchin Style Photo Strip App"
+        description="Create Kpop photobooth photo strips online. Inspired by popular styles like Easy4Cut, Memorify Photobooth and Chinchin Booth. Free web app, no login required."
         canonicalPath="/"
-        keywords="easy4cut, easy4cut kpop, memorify photobooth, easy4cut.com, easy4cut com photobooth, easy4cut com, easy4cut.com photobooth, idealphoto, ideal photo vercel, ideal photo vercel app, idealphoto.vercel.app, photo booth online, free kpop photobooth"
+        keywords="easy4cut, kpop photobooth online, memorify photobooth, chinchin booth, ideal photo vercel, photo strip maker, kpop photo strips, easy4cut kpop"
         ogType="website"
         structuredData={homepageStructuredData}
       />
